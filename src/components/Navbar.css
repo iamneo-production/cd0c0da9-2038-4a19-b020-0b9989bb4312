@@ -1,0 +1,96 @@
+.NavbarItems{
+    background-color: rgb(62, 53, 238);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 0px;
+
+}
+.navbar-logo{
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    justify-content: left;
+    margin-right: 1231px;
+    margin-left: 10px;
+    position: absolute;
+    
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    margin-left: -65px;    
+    margin-right: 10px;
+    position: absolute;
+}
+.nav-link{
+   padding: 25px;
+   color: #fff;
+   font-weight:bold;
+   font-size: 25px;
+}
+.nav-link:hover{
+    background-color: rgb(104, 104, 214);
+    color: rgb(15, 15, 165);
+    border-radius: 0px;
+}
+.logout-button{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 1325px;
+}
+.logout-button:hover{
+      color: red;
+      
+}
+.main-body{
+    width: 100%;
+    height: 1530px;
+    display: flex;
+    background-color: skyblue;
+}
+.search-bar{
+    margin-top: 48px;
+    display: flex;
+    position: absolute;
+    margin-left: 472px;
+    justify-content: center;
+}
+.search-value{
+    width: 460px;
+    border-radius: 15px;
+    padding: 5px;
+    border-color: black;
+}
+.search-button{
+    margin-left: 30px;
+    border-radius: 14px;
+    padding: 6px;
+    width: 105px;
+    background-color: rgb(35, 35, 196);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: black;
+}
+.search-button:hover{
+    background-color: #fff;
+    color: blue;
+    font-weight: bold;
+}
+
+.container{
+    margin-top: 195px;
+}
+.card{
+   border-radius: 6px;
+}
+
+.boatsInfo{
+    margin-top: 117px;
+    text-align: center;
+    color: crimson;
+}

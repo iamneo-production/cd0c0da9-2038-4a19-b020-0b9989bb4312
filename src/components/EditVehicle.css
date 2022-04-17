@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+/*body{
+    margin-top:50px;
+  height: 100vh;
+  display: flex;
+  padding: 10px;
+  background:  rgb(25, 99, 102);
+}*/
+.container5{
+  max-width: 700px;
+  width: 58%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container5 .title5{
+  font-size: 33px;
+  font-weight: 600;
+  position: relative;
+}
+.content5 form .user-details1{
+ 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details1 .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details1 .input-box input{
+  height: 40px;
+  width: 350px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 10px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details1 .input-box textarea{
+  height: 60px;
+  width: 350px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 10px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details1 .input-box input:focus,
+.user-details1 .input-box input:valid{
+  border-color: #070707;
+}
+::placeholder{
+  color:rgb(48, 48, 48);
+  font-size:16px;
+}
+ form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ form .category{
+   
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   
+   align-items: center;
+   cursor: pointer;
+ }
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 100%;
+   width: 50%;
+   border-radius: 20px;
+   border: none;
+   color: rgb(255, 255, 255);
+   font-size: 21px;
+   font-weight: 550;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: rgb(0, 0, 0);
+ }
+ form .button input:hover{
+  /* transform: scale(0.99); */
+  background: rgb(24, 133, 148);
+  color:rgb(0, 0, 0);
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+form .user-details1 .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details1{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details1::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .container5 .content .category{
+    flex-direction: column;
+  }
+}
+.card5{
+    margin:80px;
+  overflow: hidden;
+  box-shadow : 0 5px 10px rgb(5, 5, 5);
+  border-radius:30px ;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor:pointer;
+  background-color: rgb(0, 0, 0);
+  color:#fff;
+  transition:tranform 200ms ease-in;
+}
+.card-img5{
+  height:14rem;
+  width:100%;
+  object-fit:cover;
+}
+.card-title5{
+  padding:1rem;
+  font-size: 30px;
+  text-align: center;
+}
+.card-address5{
+  padding : 0 1rem;
+  font-size: 20px;
+  text-align: center;
+}
+.card-time5{
+  padding :.5rem;
+  font-size: 20px;
+  text-align: center;
+}
+.card-price5{
+  padding :.2rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fa-trash-can{
+  font-size: 25px;
+  position:fixed; left:540px; 
+}
+
+.fa-trash-can:hover{
+color:red;
+}
+
+.split{
+  height:100%;
+  width:50%;
+  position :fixed;
+  z-index:1;
+  top:0;
+  overflow-x:hidden;
+  padding-top:20px;
+}
+.left{
+  left:-20px;   
+}
+.right{
+  right:-220px;
+}

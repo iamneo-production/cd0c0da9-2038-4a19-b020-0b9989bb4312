@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0; 
+ }
+ body{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     
+     background-color: rgb(25, 99, 102);
+ }
+ .wrapper{
+     display:grid;
+     grid-template-columns: repeat(auto-fit,minmax(20rem,16rem));
+     gap:2rem;
+     justify-content:center;
+     padding:20px;
+ }
+ .card2{
+     overflow: hidden;
+     box-shadow : 0 2px 20px rgb(5, 5, 5);
+     border-radius:2px ;
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
+     cursor:pointer;
+     padding:5px;
+     background-color: white;
+     transition: transform 200ms ease-in;
+ }
+ .card-img{
+     height:12rem;
+     width:100%;
+     object-fit:cover;
+ }
+ .card-title2{
+     padding:1rem;
+     font-size: 25px;
+ }
+ .card-address{
+     padding : 0 1rem;
+     font-size: 20px;
+     text-align: left;
+ }
+ .card-time{
+     padding :.5rem;
+     font-size: 20px;
+     text-align: left;
+ }
+ .card-price{
+     padding :.2rem;
+     font-size: 20px;
+     text-align: left;
+ }
+ .card-btn-edit{
+     padding: 20px;
+     text-align: center;
+     
+ }
+ .fa-trash{
+     margin:0px 30px;
+     font-size: 20px;
+ }
+ .fa-pen-to-square{
+     font-size: 20px;
+ }
+ .fa-trash :hover{
+  background-color:red;
+ }
